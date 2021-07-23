@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btnLogin {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-size: 24px;
+  font-family: sans-serif;
+
+  transition: filter 0.4s;
+}
+
+.btnLogin:hover {
+  filter: brightness(0.9);
+}
